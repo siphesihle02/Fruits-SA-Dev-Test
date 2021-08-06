@@ -14,11 +14,12 @@ namespace Fruits_SA_Devloper_Test.Models
         [Required(ErrorMessage = "Please enter name")]
         [DisplayName("Category Name")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "Please enter a unique category code")]
-        [StringLength(6)]
+        [Required(ErrorMessage = "Please enter name")]
+        [StringLength(maximumLength:6)]
         [DisplayName("Category Code")]
         public string categoryCode { get; set; }
         [Required]
         public bool isActive { get; set; }
+        public virtual ICollection<product> products { get; set; }
     }
 }

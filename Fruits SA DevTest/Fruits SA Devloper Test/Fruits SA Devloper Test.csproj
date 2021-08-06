@@ -175,6 +175,16 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Controllers\categories1Controller.cs" />
+    <Compile Include="Migrations\202108060031010_InitialCreate.cs" />
+    <Compile Include="Migrations\202108060031010_InitialCreate.Designer.cs">
+      <DependentUpon>202108060031010_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108061007121_UpdatingTable.cs" />
+    <Compile Include="Migrations\202108061007121_UpdatingTable.Designer.cs">
+      <DependentUpon>202108061007121_UpdatingTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\product.cs" />
     <Compile Include="Models\userAccounts\AccountViewModels.cs" />
     <Compile Include="Models\category.cs" />
     <Compile Include="Models\userAccounts\IdentityModels.cs" />
@@ -259,6 +269,14 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202108060031010_InitialCreate.resx">
+      <DependentUpon>202108060031010_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108061007121_UpdatingTable.resx">
+      <DependentUpon>202108061007121_UpdatingTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

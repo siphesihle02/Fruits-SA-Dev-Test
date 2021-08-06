@@ -106,3 +106,6 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA 
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.CopyComplete
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits_SA_Devloper_Test.Migrations.InitialCreate.resources
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.GenerateResource.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits_SA_Devloper_Test.Migrations.UpdatingTable.resources
