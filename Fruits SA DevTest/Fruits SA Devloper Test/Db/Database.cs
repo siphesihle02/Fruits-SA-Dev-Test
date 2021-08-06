@@ -13,6 +13,7 @@ namespace Fruits_SA_Devloper_Test.Db
 
         }
         public DbSet<category> categories { get; set; }
-        
+        public DbSet<product> products { get; set; }
+
     }
 }
