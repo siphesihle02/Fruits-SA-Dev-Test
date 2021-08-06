@@ -14,6 +14,7 @@ namespace Data
         [DisplayName("Category Name")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Please enter a unique category code")]
+        [StringLength(6)]
         [DisplayName("Category Code")]
         public string categoryCode { get; set; }
         [Required]
