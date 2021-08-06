@@ -1,0 +1,44 @@
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Fruits SA Devloper Test.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Optimization.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Owin.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Fruits SA Devloper Test.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Fruits SA Devloper Test.dll.config
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Optimization.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Mvc.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.Razor.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
