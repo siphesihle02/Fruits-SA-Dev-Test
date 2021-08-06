@@ -10,10 +10,17 @@ namespace Fruits_SA_Devloper_Test.Models
     {
         [Key]
      public int id { get; set; }
+      [Required(ErrorMessage = "Please correct product code")]
+      [DisplayName("Product Code")]
      public string productCode { get; set; }
+     [Required(ErrorMessage = "Please enter  a product name")]
+     [DisplayName("Product Name")]
      public string productName { get; set; }
-     public string description { get; set; }
-     public int categoryId { get; set; }
+     [DisplayName("Description")]
+    public string description { get; set; }
+     [Required(ErrorMessage = "Please choose a product category")]
+     [DisplayName("Category Name")]
+      public string categoryName { get; set; }
      public virtual category Category { get; set; }
     }
 }
