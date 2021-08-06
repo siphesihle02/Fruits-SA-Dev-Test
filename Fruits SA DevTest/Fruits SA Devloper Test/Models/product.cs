@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.Drawing;
 namespace Fruits_SA_Devloper_Test.Models
 {
     public class product
@@ -25,7 +26,7 @@ namespace Fruits_SA_Devloper_Test.Models
         [DisplayName("Price")]
         public  double price { get; set; }
         [DisplayName(" Product Image")]
-        public byte image { get; set; }
+        public Image  image { get; set; }
         public virtual category Category { get; set; }
     }
 }
