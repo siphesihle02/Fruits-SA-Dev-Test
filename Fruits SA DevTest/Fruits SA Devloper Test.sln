@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fruits SA Devloper Test", "Fruits SA Devloper Test\Fruits SA Devloper Test.csproj", "{791DD647-343C-48FA-97A2-858F0B903C76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsSADevloperTest", "Fruits SA Devloper Test\FruitsSADevloperTest.csproj", "{791DD647-343C-48FA-97A2-858F0B903C76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileUpDownLoad", "FileUpDownLoad", "{117B738B-DC51-4214-9A2C-109A6D69E11D}"
 EndProject
