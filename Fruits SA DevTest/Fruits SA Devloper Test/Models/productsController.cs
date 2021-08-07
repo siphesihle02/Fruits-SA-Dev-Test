@@ -19,7 +19,10 @@ namespace Fruits_SA_Devloper_Test.Models
         {
             return View(db.Products.ToList());
         }
-
+        public ActionResult ProductList()
+        {
+            return View(db.Products.ToList());
+        }
         // GET: products/Details/5
         public ActionResult Details(int? id)
         {
