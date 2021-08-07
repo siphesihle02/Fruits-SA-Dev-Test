@@ -113,3 +113,7 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA 
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\PagedList.Mvc.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\PagedList.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\PagedList.Mvc.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.AssemblyReference.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\DownUploadsFiles.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\DownUploadsFiles.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\DownUploadsFiles.dll.config

@@ -176,7 +176,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\downloadController.cs" />
+    <Compile Include="Controllers\filesController.cs" />
     <Compile Include="Controllers\uploadController.cs" />
     <Compile Include="Controllers\userAccounts\AccountController.cs" />
     <Compile Include="Controllers\userAccounts\HomeController.cs" />
@@ -268,9 +268,11 @@
     <Content Include="Views\products\Edit.cshtml" />
     <Content Include="Views\products\Productlist.cshtml" />
     <Content Include="Views\upload\UploadFile.cshtml" />
+    <Content Include="Views\files\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\" />
     <Folder Include="UploadedFiles\" />
     <Folder Include="Views\download\" />
   </ItemGroup>
@@ -291,6 +293,12 @@
     <EmbeddedResource Include="Migrations\202108061910575_Initial Create.resx">
       <DependentUpon>202108061910575_Initial Create.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DownUploadsFiles\DownUploadsFiles.csproj">
+      <Project>{e690961c-5f1c-4b36-9606-036b715022e0}</Project>
+      <Name>DownUploadsFiles</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

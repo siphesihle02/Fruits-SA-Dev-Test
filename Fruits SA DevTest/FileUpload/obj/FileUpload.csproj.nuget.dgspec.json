@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj": {
+                "projectPath": "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -56,6 +60,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj",
+        "projectName": "Fruits SA Devloper Test",
+        "projectPath": "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -1,0 +1,12 @@
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.csproj.CoreCompileInputs.cache
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\DownUploadsFiles.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\DownUploadsFiles.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\DownUploadsFiles.dll.config
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.csproj.CopyComplete
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.csproj.AssemblyReference.cache

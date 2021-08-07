@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Fruits SA Devloper Test/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Fruits SA Devloper Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fruits SA Devloper Test.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Fruits SA Devloper Test/1.0.0": {
+      "type": "project",
+      "path": "../Fruits SA Devloper Test/Fruits SA Devloper Test.csproj",
+      "msbuildProject": "../Fruits SA Devloper Test/Fruits SA Devloper Test.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Fruits SA Devloper Test >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mlungwanas\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj": {
+              "projectPath": "C:\\Users\\mlungwanas\\source\\repos\\Fruits-SA-Dev-Test\\Fruits SA DevTest\\Fruits SA Devloper Test\\Fruits SA Devloper Test.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
