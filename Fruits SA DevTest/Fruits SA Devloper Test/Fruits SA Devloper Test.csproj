@@ -176,8 +176,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\filesController.cs" />
-    <Compile Include="Controllers\uploadController.cs" />
+    <Compile Include="Controllers\UpDownLoadsController.cs" />
     <Compile Include="Controllers\userAccounts\AccountController.cs" />
     <Compile Include="Controllers\userAccounts\HomeController.cs" />
     <Compile Include="Controllers\userAccounts\ManageController.cs" />
@@ -192,7 +191,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\product.cs" />
-    <Compile Include="Models\productsController.cs" />
+    <Compile Include="Controllers\productsController.cs" />
     <Compile Include="Models\userAccounts\AccountViewModels.cs" />
     <Compile Include="Models\category.cs" />
     <Compile Include="Models\userAccounts\IdentityModels.cs" />
@@ -267,14 +266,11 @@
     <Content Include="Views\products\Details.cshtml" />
     <Content Include="Views\products\Edit.cshtml" />
     <Content Include="Views\products\Productlist.cshtml" />
-    <Content Include="Views\upload\UploadFile.cshtml" />
-    <Content Include="Views\files\Index.cshtml" />
+    <Content Include="Views\UpDownload\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Files\" />
-    <Folder Include="UploadedFiles\" />
-    <Folder Include="Views\download\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

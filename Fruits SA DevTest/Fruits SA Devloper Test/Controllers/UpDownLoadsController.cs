@@ -10,7 +10,7 @@ using static System.Net.WebRequestMethods;
 
 namespace Fruits_SA_Devloper_Test.Controllers
 {
-    public class filesController : Controller
+    public class UpDownLoadsController : Controller
     {
         private Db.productsDatabase db = new Db.productsDatabase();
         // GET: files
