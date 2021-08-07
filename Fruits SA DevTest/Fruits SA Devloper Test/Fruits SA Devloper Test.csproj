@@ -55,6 +55,12 @@
       <HintPath>..\packages\HomeBi.Libraries.PagedList.1.0.0\lib\netstandard2.0\HomeBi.Libraries.PagedList.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -170,6 +176,8 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\downloadController.cs" />
+    <Compile Include="Controllers\uploadController.cs" />
     <Compile Include="Controllers\userAccounts\AccountController.cs" />
     <Compile Include="Controllers\userAccounts\HomeController.cs" />
     <Compile Include="Controllers\userAccounts\ManageController.cs" />
@@ -197,6 +205,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -257,11 +266,13 @@
     <Content Include="Views\products\Delete.cshtml" />
     <Content Include="Views\products\Details.cshtml" />
     <Content Include="Views\products\Edit.cshtml" />
-    <Content Include="Views\products\Index.cshtml" />
-    <Content Include="Views\products\ProductList.cshtml" />
+    <Content Include="Views\products\Productlist.cshtml" />
+    <Content Include="Views\upload\UploadFile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="UploadedFiles\" />
+    <Folder Include="Views\download\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

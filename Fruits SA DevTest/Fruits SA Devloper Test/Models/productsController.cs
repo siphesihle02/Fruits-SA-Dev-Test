@@ -6,7 +6,10 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using Fruits_SA_Devloper_Test.Db;
+using PagedList;
+using PagedList.Mvc;
 
 namespace Fruits_SA_Devloper_Test.Models
 {
@@ -19,10 +22,33 @@ namespace Fruits_SA_Devloper_Test.Models
         {
             return View(db.Products.ToList());
         }
-        public ActionResult ProductList()
+        
+        public ActionResult Productlist(int? page, int? pageSize)
         {
-            return View(db.Products.ToList());
+
+            int pageIndex = 1;
+            pageIndex = page.HasValue ? Convert.ToInt32(page) : 1;
+            int defaSize = (pageSize ?? 5);
+
+            ViewBag.psize = defaSize;
+            ViewBag.PageSize = new List<SelectListItem>()
+    {
+        new SelectListItem() { Value="5", Text= "5" },
+        new SelectListItem() { Value="10", Text= "10" },
+        new SelectListItem() { Value="15", Text= "15" },
+        new SelectListItem() { Value="25", Text= "25" },
+        new SelectListItem() { Value="50", Text= "50" },
+     };
+
+            productsDatabase db = new productsDatabase();
+            IPagedList<product> productsLst = null;
+            productsLst = db.Products.OrderBy(x => x.id).ToPagedList(pageIndex, defaSize);
+
+
+            return View(productsLst);
+            
         }
+       
         // GET: products/Details/5
         public ActionResult Details(int? id)
         {

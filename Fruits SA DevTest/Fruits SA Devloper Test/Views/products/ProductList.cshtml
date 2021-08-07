@@ -1,59 +1,83 @@
-﻿@model IEnumerable<Fruits_SA_Devloper_Test.Models.product>
-
+﻿
+@model PagedList.IPagedList<Fruits_SA_Devloper_Test.Models.product>
+@using PagedList.Mvc;
 @{
-    ViewBag.Title = "ProductList";
+    ViewBag.Title = "Productlist";
 }
 
-<h2>ProductList</h2>
+<h2>Products list</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.productCode)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.productName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.categoryName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.price)
-        </th>
-        
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.productCode)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.productName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.description)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.categoryName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.price)
-        </td>
+@(Html.BeginForm("Productlist", "products", FormMethod.Get, new { id = "form1" }))
+{
+    <div id='Paging' style="text-align: center">
         
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
-}
+        Page Size: @Html.DropDownList("pageSize")
 
-</table>
+        <br />(Nos. of Records To Display)
+        <br />
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+        of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("Productlist", new { page, pageSize = ViewBag.psize }))
+    </div>
+    <table class="table">
+        <tr>
+            <th>
+                productCode
+            </th>
+            <th>
+                productName
+            </th>
+            <th>
+                description
+            </th>
+            <th>
+                categoryName
+            </th>
+            <th>
+                price
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.productCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.productName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.categoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.price)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <script type="text/javascript">
+
+    $(function () {
+        $("#pageSize").change(function () {
+            alert("abc");
+            $("#form1").submit();
+        });
+    });
+    </script>
