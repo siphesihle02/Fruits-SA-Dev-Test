@@ -6,14 +6,14 @@ using Fruits_SA_Devloper_Test.Models;
 
 namespace Fruits_SA_Devloper_Test.Db
 {
-   public class Database :DbContext
+   public class productsDatabase :DbContext
     {
-      public Database():base("Database")
+      public productsDatabase():base("productsDatabase")
         {
 
         }
-        public DbSet<category> categories { get; set; }
-        public DbSet<product> products { get; set; }
+        public DbSet<category> Categories { get; set; }
+        public DbSet<product> Products { get; set; }
 
     }
 }

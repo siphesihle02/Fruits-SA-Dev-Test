@@ -13,7 +13,7 @@ namespace Fruits_SA_Devloper_Test.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202108060031010_InitialCreate"; }
+            get { return "202108061910575_Initial Create"; }
         }
         
         string IMigrationMetadata.Source

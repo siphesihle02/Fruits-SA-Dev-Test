@@ -101,11 +101,10 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA 
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.AssemblyReference.cache
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.CoreCompileInputs.cache
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.CopyComplete
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.AssemblyReference.cache
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits_SA_Devloper_Test.Migrations.InitialCreate.resources
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits SA Devloper Test.csproj.GenerateResource.cache
-C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Fruits SA Devloper Test\obj\Debug\Fruits_SA_Devloper_Test.Migrations.UpdatingTable.resources

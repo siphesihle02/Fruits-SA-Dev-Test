@@ -14,8 +14,8 @@ namespace Fruits_SA_Devloper_Test.Models
         [Required(ErrorMessage = "Please enter name")]
         [DisplayName("Category Name")]
         public string Name { get; set; }
+        
         [Required(ErrorMessage = "Please enter name")]
-        [StringLength(maximumLength:6)]
         [DisplayName("Category Code")]
         public string categoryCode { get; set; }
         [Required]

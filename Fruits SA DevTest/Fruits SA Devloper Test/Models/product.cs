@@ -22,11 +22,11 @@ namespace Fruits_SA_Devloper_Test.Models
      [Required(ErrorMessage = "Please choose a product category")]
      [DisplayName("Category Name")]
       public string categoryName { get; set; }
-        [Required(ErrorMessage = "Please enter price")]
-        [DisplayName("Price")]
-        public  double price { get; set; }
-        [DisplayName(" Product Image")]
-        public Image  image { get; set; }
-        public virtual category Category { get; set; }
+     [Required(ErrorMessage = "Please enter price")]
+     [DisplayName("Price")]
+      public  double price { get; set; }
+     [DisplayName(" Product Image")]
+     public byte[]  image { get; set; }
+     public virtual category Category { get; set; }
     }
 }

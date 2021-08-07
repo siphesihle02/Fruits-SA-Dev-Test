@@ -5,15 +5,14 @@ namespace Fruits_SA_Devloper_Test.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Fruits_SA_Devloper_Test.Db.Database>
+    internal sealed class Configuration : DbMigrationsConfiguration<Fruits_SA_Devloper_Test.Db.productsDatabase>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
-            ContextKey = "Fruits_SA_Devloper_Test.Db.Database";
+            AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(Fruits_SA_Devloper_Test.Db.Database context)
+        protected override void Seed(Fruits_SA_Devloper_Test.Db.productsDatabase context)
         {
             //  This method will be called after migrating to the latest version.
 
