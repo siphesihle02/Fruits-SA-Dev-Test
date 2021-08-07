@@ -28,7 +28,7 @@ namespace Fruits_SA_Devloper_Test.Models
 
             int pageIndex = 1;
             pageIndex = page.HasValue ? Convert.ToInt32(page) : 1;
-            int defaSize = (pageSize ?? 5);
+            int defaSize = (pageSize ?? 10);
 
             ViewBag.psize = defaSize;
             ViewBag.PageSize = new List<SelectListItem>()

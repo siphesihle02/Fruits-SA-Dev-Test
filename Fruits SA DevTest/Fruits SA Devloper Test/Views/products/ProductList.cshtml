@@ -2,16 +2,16 @@
 @model PagedList.IPagedList<Fruits_SA_Devloper_Test.Models.product>
 @using PagedList.Mvc;
 @{
-    ViewBag.Title = "Productlist";
+    ViewBag.Title = "ProductList";
 }
 
 <h2>Products list</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Add New Product", "Create")
 </p>
 
-@(Html.BeginForm("Productlist", "products", FormMethod.Get, new { id = "form1" }))
+@(Html.BeginForm("ProductList", "products", FormMethod.Get, new { id = "form1" }))
 {
     <div id='Paging' style="text-align: center">
         
@@ -23,7 +23,7 @@
         Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
         of @Model.PageCount
 
-        @Html.PagedListPager(Model, page => Url.Action("Productlist", new { page, pageSize = ViewBag.psize }))
+        @Html.PagedListPager(Model, page => Url.Action("ProductList", new { page, pageSize = ViewBag.psize }))
     </div>
     <table class="table">
         <tr>
