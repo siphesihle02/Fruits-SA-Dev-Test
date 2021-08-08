@@ -190,6 +190,7 @@
       <DependentUpon>202108061910575_Initial Create.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\categoryList.cs" />
     <Compile Include="Models\product.cs" />
     <Compile Include="Controllers\productsController.cs" />
     <Compile Include="Models\userAccounts\AccountViewModels.cs" />

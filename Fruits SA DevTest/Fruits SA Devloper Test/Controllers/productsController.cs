@@ -20,9 +20,18 @@ namespace Fruits_SA_Devloper_Test.Models
         // GET: products
         public ActionResult Index()
         {
+            var items = db.Products. ToList();
+            if (items != null)
+            {
+                ViewBag.data = items;
+            }
+            return View();
+        }
+        public ActionResult categoryList()
+        {
             return View(db.Products.ToList());
         }
-        
+
         public ActionResult Productlist(int? page, int? pageSize)
         {
 
@@ -67,7 +76,11 @@ namespace Fruits_SA_Devloper_Test.Models
         // GET: products/Create
         public ActionResult Create()
         {
-            return View();
+            productsDatabase db = new productsDatabase();
+            var list = new categoryList();
+
+            ViewBag.categoryName = list.categoryNameList;
+            return View(list);
         }
 
         // POST: products/Create
