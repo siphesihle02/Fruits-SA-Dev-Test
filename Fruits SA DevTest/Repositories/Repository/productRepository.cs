@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Fruits_SA_Devloper_Test.Db;
 using System.Data.Entity;
+using Fruits_SA_Devloper_Test.Models;
 
 namespace Repositories.Repository
 {
@@ -23,15 +24,30 @@ namespace Repositories.Repository
             _productsDatabase.Products.Remove(product);
             _productsDatabase.SaveChanges();
         }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<product> GetProduct()
         {
             return _productsDatabase.Products.ToList();
         }
+
+        public IEnumerable<product> GetProducts()
+        {
+            throw new NotImplementedException();
+        }
+
         public void InsertProduct(product product)
         {
             _productsDatabase.Products.Add(product);
             _productsDatabase.SaveChanges();
         }
+
+        
+
         public void Save()
         {
             _productsDatabase.SaveChanges();
@@ -43,5 +59,7 @@ namespace Repositories.Repository
             _productsDatabase.Entry(product).State = EntityState.Modified;
             _productsDatabase.SaveChanges();
         }
+
+        
     }
 }
