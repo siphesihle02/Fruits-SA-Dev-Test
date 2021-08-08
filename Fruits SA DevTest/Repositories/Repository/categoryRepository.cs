@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fruits_SA_Devloper_Test.Db;
+using System.Data.Entity;
 
 namespace Repositories.Repository
 {
@@ -42,12 +43,15 @@ namespace Repositories.Repository
 
     public void Save()
     {
-        throw new NotImplementedException();
-    }
+     
+            _productsDatabase.SaveChanges();
+        }
 
     public void UpdateCustomer(category category)
     {
-        throw new NotImplementedException();
-    }
+
+            _productsDatabase.Entry(category).State = EntityState.Modified;
+            _productsDatabase.SaveChanges();
+        }
 }
 }
