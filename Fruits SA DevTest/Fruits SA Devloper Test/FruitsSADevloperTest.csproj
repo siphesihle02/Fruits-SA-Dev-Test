@@ -192,6 +192,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\categoryList.cs" />
     <Compile Include="Models\product.cs" />
+    <Compile Include="Controllers\pructsController.cs" />
     <Compile Include="Controllers\productsController.cs" />
     <Compile Include="Models\userAccounts\AccountViewModels.cs" />
     <Compile Include="Models\category.cs" />
@@ -262,13 +263,19 @@
     <Content Include="Views\categories\Details.cshtml" />
     <Content Include="Views\categories\Edit.cshtml" />
     <Content Include="Views\categories\Index.cshtml" />
+    <Content Include="Views\products123\Create.cshtml" />
+    <Content Include="Views\products123\Delete.cshtml" />
+    <Content Include="Views\products123\Details.cshtml" />
+    <Content Include="Views\products123\Edit.cshtml" />
+    <Content Include="Views\products123\PductList.cshtml" />
+    <Content Include="Views\products123\Index.cshtml" />
+    <Content Include="Views\UpDownLoads\Index.cshtml" />
     <Content Include="Views\products\Create.cshtml" />
     <Content Include="Views\products\Delete.cshtml" />
     <Content Include="Views\products\Details.cshtml" />
     <Content Include="Views\products\Edit.cshtml" />
-    <Content Include="Views\products\ProductList.cshtml" />
     <Content Include="Views\products\Index.cshtml" />
-    <Content Include="Views\UpDownLoads\Index.cshtml" />
+    <Content Include="Views\products\ProductList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

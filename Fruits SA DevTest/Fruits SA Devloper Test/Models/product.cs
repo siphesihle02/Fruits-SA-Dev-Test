@@ -26,7 +26,6 @@ namespace Fruits_SA_Devloper_Test.Models
      [DisplayName("Price")]
       public  double price { get; set; }
     
-    
      public virtual category Category { get; set; }
     }
    

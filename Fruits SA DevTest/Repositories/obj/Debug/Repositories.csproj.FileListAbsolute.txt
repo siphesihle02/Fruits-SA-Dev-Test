@@ -53,3 +53,8 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositori
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\obj\Debug\Repositories.csproj.CopyComplete
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\obj\Debug\Repositories.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\obj\Debug\Repositories.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\bin\Debug\AutoFixture.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\bin\Debug\Fare.dll
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\bin\Debug\AutoFixture.pdb
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\bin\Debug\AutoFixture.xml
+C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Repositories\bin\Debug\Fare.xml

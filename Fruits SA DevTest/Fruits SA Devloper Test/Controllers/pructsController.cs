@@ -6,21 +6,39 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using PagedList;
+using System.Web.UI;
 using Fruits_SA_Devloper_Test.Db;
+using PagedList;
+using PagedList.Mvc;
 
 namespace Fruits_SA_Devloper_Test.Models
 {
-    public class productsController : Controller
+    public class proctsController : Controller
+
     {
-        private Db.productsDatabase db = new Db.productsDatabase();
+        public readonly productsDatabase _productsDatabase;
+        //public productsController(productsDatabase productDatabase)
+        //{
+        //    _productsDatabase = productDatabase;
+        //}
+        private productsDatabase db = new productsDatabase();
 
         // GET: products
         public ActionResult Index()
         {
+            var items = db.Products. ToList();
+            if (items != null)
+            {
+                ViewBag.data = items;
+            }
+            return View();
+        }
+        public ActionResult categoryList()
+        {
             return View(db.Products.ToList());
         }
-        public ActionResult ProductList(int? page, int? pageSize)
+
+        public ActionResult Productlist(int? page, int? pageSize)
         {
 
             int pageIndex = 1;
@@ -43,8 +61,9 @@ namespace Fruits_SA_Devloper_Test.Models
 
 
             return View(productsLst);
-
+            
         }
+       
         // GET: products/Details/5
         public ActionResult Details(int? id)
         {
@@ -63,6 +82,7 @@ namespace Fruits_SA_Devloper_Test.Models
         // GET: products/Create
         public ActionResult Create()
         {
+            
             return View();
         }
 
@@ -71,7 +91,7 @@ namespace Fruits_SA_Devloper_Test.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "id,productCode,productName,description,categoryName,price")] product product)
+        public ActionResult Create([Bind(Include = "id,productCode,productName,description,categoryName,price,image")] product product)
         {
             if (ModelState.IsValid)
             {
@@ -103,7 +123,7 @@ namespace Fruits_SA_Devloper_Test.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,productCode,productName,description,categoryName,price")] product product)
+        public ActionResult Edit([Bind(Include = "id,productCode,productName,description,categoryName,price,image")] product product)
         {
             if (ModelState.IsValid)
             {

@@ -12,6 +12,11 @@ namespace Fruits_SA_Devloper_Test.Models
 {
     public class categoriesController : Controller
     {
+        public readonly productsDatabase _productsDatabase;
+        //public categoriesController(productsDatabase productDatabase)
+        //{
+        //    _productsDatabase = productDatabase;
+        //}
         private Db.productsDatabase db = new Db.productsDatabase();
 
         // GET: categories
