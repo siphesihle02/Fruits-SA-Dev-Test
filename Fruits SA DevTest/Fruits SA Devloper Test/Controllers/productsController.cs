@@ -13,12 +13,14 @@ namespace Fruits_SA_Devloper_Test.Models
 {
     public class productsController : Controller
     {
-        private Db.productsDatabase db = new Db.productsDatabase();
+        private productsDatabase db = new productsDatabase();
 
         // GET: products
         public ActionResult Index()
         {
-            return View(db.Products.ToList());
+            using (productsDatabase db = new productsDatabase()) 
+
+                return View(db.Products.ToList());
         }
         public ActionResult ProductList(int? page, int? pageSize)
         {
@@ -71,16 +73,24 @@ namespace Fruits_SA_Devloper_Test.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "id,productCode,productName,description,categoryName,price")] product product)
+        public ActionResult Create([Bind(Include = "id,productCode,productName,description,categoryName,price,image")] product product,HttpPostedFileBase file)
         {
+
             if (ModelState.IsValid)
             {
-                db.Products.Add(product);
+              string fileName = System.IO.Path.GetFileNameWithoutExtension(product.imageFile.FileName);
+                string extension = System.IO.Path.GetExtension(product.imageFile.FileName);
+                product.image = "../Files" + fileName;
+                fileName = System.IO.Path.Combine(Server.MapPath("../Files/"), fileName);
+                product.imageFile.SaveAs(fileName);
+                using (productsDatabase db = new productsDatabase())
+
+                    db.Products.Add(product);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-
-            return View(product);
+            ModelState.Clear();
+           return View();
         }
 
         // GET: products/Edit/5
@@ -103,7 +113,7 @@ namespace Fruits_SA_Devloper_Test.Models
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,productCode,productName,description,categoryName,price")] product product)
+        public ActionResult Edit([Bind(Include = "id,productCode,productName,description,categoryName,price,image")] product product)
         {
             if (ModelState.IsValid)
             {

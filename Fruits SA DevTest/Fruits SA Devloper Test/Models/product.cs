@@ -5,6 +5,8 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
 using System.Drawing;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Fruits_SA_Devloper_Test.Models
 {
     public class product
@@ -25,7 +27,10 @@ namespace Fruits_SA_Devloper_Test.Models
      [Required(ErrorMessage = "Please enter price")]
      [DisplayName("Price")]
       public  double price { get; set; }
-    
+        [Required]
+      public string image { get; set; }
+       [NotMapped]
+        public HttpPostedFileBase imageFile { get; set; }
      public virtual category Category { get; set; }
     }
    

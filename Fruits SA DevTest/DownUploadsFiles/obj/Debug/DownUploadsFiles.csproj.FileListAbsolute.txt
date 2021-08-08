@@ -9,4 +9,3 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUpload
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.csproj.CopyComplete
-C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\DownUploadsFiles\obj\Debug\DownUploadsFiles.csproj.AssemblyReference.cache
