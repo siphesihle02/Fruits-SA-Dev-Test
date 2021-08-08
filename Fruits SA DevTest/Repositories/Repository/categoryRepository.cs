@@ -43,11 +43,10 @@ namespace Repositories.Repository
 
     public void Save()
     {
-     
             _productsDatabase.SaveChanges();
-        }
+      }
 
-    public void UpdateCustomer(category category)
+    public void UpdateCategory(category category)
     {
 
             _productsDatabase.Entry(category).State = EntityState.Modified;

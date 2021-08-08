@@ -13,7 +13,7 @@ namespace Repositories.Repository
         IEnumerable<category> GetCategories();
         void InsertCategory (category category);
         void DeleteCategory(int categoryId);
-        void UpdateCustomer(category category);
+        void UpdateCategory(category category);
         void Save();
     }
 }

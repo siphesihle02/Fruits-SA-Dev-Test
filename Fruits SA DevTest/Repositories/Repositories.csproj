@@ -55,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\categoryRepository.cs" />
     <Compile Include="Repository\IcategotyRepository.cs" />
+    <Compile Include="Repository\IproductRepositoty.cs" />
+    <Compile Include="Repository\productRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fruits SA Devloper Test\FruitsSADevloperTest.csproj">
