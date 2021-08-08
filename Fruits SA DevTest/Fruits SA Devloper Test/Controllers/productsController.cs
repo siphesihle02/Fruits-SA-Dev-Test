@@ -14,6 +14,7 @@ using PagedList.Mvc;
 namespace Fruits_SA_Devloper_Test.Models
 {
     public class productsController : Controller
+
     {
         private productsDatabase db = new productsDatabase();
 

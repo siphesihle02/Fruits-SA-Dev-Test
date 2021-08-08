@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
+using System.Text;
 
 namespace Fruits_SA_Devloper_Test.Models
 {
@@ -13,7 +14,9 @@ namespace Fruits_SA_Devloper_Test.Models
         [Display(Name = "Email Address")]
         public string categoryName { get; set; }
         public IEnumerable<SelectListItem> categoryNameList { get; set; }
-        
-           
-        }
+        StringBuilder tweetFeedBuilder = new StringBuilder();
+        twee
+    }
+
 }
+    

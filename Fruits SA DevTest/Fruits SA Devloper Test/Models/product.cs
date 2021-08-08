@@ -29,4 +29,5 @@ namespace Fruits_SA_Devloper_Test.Models
     
      public virtual category Category { get; set; }
     }
+   
 }
