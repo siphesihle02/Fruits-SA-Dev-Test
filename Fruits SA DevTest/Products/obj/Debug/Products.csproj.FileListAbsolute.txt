@@ -3,4 +3,3 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Products\b
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Products\obj\Debug\Products.csproj.CoreCompileInputs.cache
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Products\obj\Debug\Products.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Products\obj\Debug\Products.pdb
-C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\Products\obj\Debug\Products.csproj.AssemblyReference.cache

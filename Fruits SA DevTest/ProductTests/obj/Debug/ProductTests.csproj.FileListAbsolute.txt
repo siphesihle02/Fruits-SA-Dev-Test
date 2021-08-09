@@ -82,7 +82,6 @@ C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTes
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\Products.pdb
-C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\Castle.Core.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\Moq.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\mlungwanas\source\repos\Fruits-SA-Dev-Test\Fruits SA DevTest\ProductTests\bin\Debug\System.Threading.Tasks.Extensions.xml
