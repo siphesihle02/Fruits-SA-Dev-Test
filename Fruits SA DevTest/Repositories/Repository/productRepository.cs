@@ -9,7 +9,8 @@ using Fruits_SA_Devloper_Test.Models;
 
 namespace Repositories.Repository
 {
-   public class productRepository : IproductRepositoty
+    // The aim was to refactor the CRUD operations to use repositories to access data source i did not finish.
+    public class productRepository : IproductRepositoty
     {
         public readonly productsDatabase _productsDatabase;
         public productRepository(productsDatabase productDatabase)

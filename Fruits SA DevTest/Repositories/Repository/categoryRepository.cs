@@ -9,7 +9,7 @@ using System.Data.Entity;
 
 namespace Repositories.Repository
 {
- 
+ // The aim was to refactor the CRUD operations to use repositories to access data source i did not finish.
     public class categoryRepository : IcategoryRepository
 {
         public readonly productsDatabase _productsDatabase;

@@ -8,6 +8,7 @@ using Fruits_SA_Devloper_Test.Models;
 
 namespace Repositories.Repository
 {
+    // The aim was to refactor the CRUD operations to use repositories to access data source i did not finish.
     public interface IcategoryRepository:IDisposable
     {
         IEnumerable<category> GetCategories();

@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileUpDownLoad", "FileUpDow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownUploadsFiles", "DownUploadsFiles\DownUploadsFiles.csproj", "{E690961C-5F1C-4B36-9606-036B715022E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{0E7A0C02-2AD0-435D-80B6-75492E752AC4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstracts", "Abstracts", "{0E7A0C02-2AD0-435D-80B6-75492E752AC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{ABFE2552-3DEB-4175-9704-0EEE24ACC630}"
 EndProject
