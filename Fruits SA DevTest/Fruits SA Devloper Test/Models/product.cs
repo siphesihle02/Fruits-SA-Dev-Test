@@ -13,7 +13,7 @@ namespace Fruits_SA_Devloper_Test.Models
     {
         [Key]
      public int id { get; set; }
-      [Required(ErrorMessage = "Please correct product code")]
+    
       [DisplayName("Product Code")]
      public string productCode { get; set; }
      [Required(ErrorMessage = "Please enter  a product name")]

@@ -5,12 +5,11 @@
 }
 
 <h2>Create</h2>
-Index
 
-@using (Html.BeginForm("Index", "Products",FormMethod.Post, new {enctype = "multipart/form-data"}))
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>product</h4>
         <hr />
@@ -58,7 +57,9 @@ Index
         <div class="form-group">
             @Html.LabelFor(model => model.image, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="file" name="imageFile"/>
+                <div class="col-md-10">
+                    <input type="file" name="imageFile" />
+                </div>
             </div>
         </div>
 
@@ -71,5 +72,9 @@ Index
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("View Products", "Index","products")
 </div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
