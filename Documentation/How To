@@ -1,0 +1,9 @@
+
+/*   
+How To...
+1.Please Run this script
+2.Migrations scripts Folder is under MVC project run :Update-Database or EntityFramework\Update-Database
+3.Please make sure Mvc  is set up as a startUp project
+4. serverName is : localhost
+*/
+create database productsDatabase
