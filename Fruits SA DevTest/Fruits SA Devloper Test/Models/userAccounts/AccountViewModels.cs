@@ -48,6 +48,8 @@ namespace Fruits_SA_Devloper_Test.Models
 
     public class LoginViewModel
     {
+       
+
         [Required]
         [Display(Name = "Email")]
         [EmailAddress]
@@ -60,6 +62,7 @@ namespace Fruits_SA_Devloper_Test.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+        public string Name { get; }
     }
 
     public class RegisterViewModel

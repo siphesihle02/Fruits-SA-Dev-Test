@@ -9,6 +9,8 @@ namespace Fruits_SA_Devloper_Test.Models
 {
     public class category
     {
+        
+
         [Key]
         public int categoryId { get; set; }
         [Required(ErrorMessage = "Please enter name")]
